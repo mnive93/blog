@@ -1,7 +1,7 @@
 # Site settings
 title: "Typewriter"
 description: "So I was feeling nostalgic."
-baseurl: /blog
+baseurl: /PersonalBlog
 url: "http://mnive93.github.io"
 
 # Build settings
