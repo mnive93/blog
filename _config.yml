@@ -1,7 +1,7 @@
 # Site settings
-title: Nivedita
-email: johnotander@gmail.com
-author: John Otander
+title: Code Blog
+email: mnive93@gmail.com
+author: Nivedita Muthusubramanian
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl: /PersonalBlog
 url: "http://mnive93.github.io"
