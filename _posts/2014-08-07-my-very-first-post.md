@@ -1,14 +1,13 @@
 ---
 layout:     post
-title:      Hello World!
-summary:    This is my very first blog post which is created using Jekyll . I am in love with the beauty and simplicity of my blog page ! 
-categories: jekyll pixyll
+title:      Hello World! 
+summary:    This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.
+categories: jekyll 
 ---
 
 Hello.
-   This is my very first blog post which is created using Jekyll . I am in love with the beauty and simplicity of my blog page ! So let's get into business ! This is going to be my personal blogpage where you get to witness all the cool side projects I am going to work on! I am currently working as an  Android developer in a company called Zoho .  I am planning to use my ample free time productively which I should have done in College but failed to do so ! So let's start!
 
-
+This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.I have falled in love with the beautiful and simple UI.Okay now let's get into business.I am going to start blogging and make use of my ample free time productively.I am planning to work on various side projects and this is where you get to see how they are done. So let's get started!
 
 <blockquote>
   <p>
