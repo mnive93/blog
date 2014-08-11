@@ -7,7 +7,7 @@ categories: jekyll
 
 Hello.
 
-This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.I have falled in love with the beautiful and simple UI.Okay now let's get into business.I am going to start blogging and make use of my ample free time productively.I am planning to work on various side projects and this is where you get to see how they are done. So let's get started!
+This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.I have fallen in love with the beautiful and simple UI.Okay now let's get into business.I am going to start blogging and make use of my ample free time productively.I am planning to work on various side projects and this is where you get to see how they are done. So let's get started!
 
 <blockquote>
   <p>
