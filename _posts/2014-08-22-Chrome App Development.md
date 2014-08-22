@@ -12,7 +12,7 @@ So now for my first side project I am planning to develop a Chrome app which wil
 
 <b>Obstacles </b> 
 
-* I might be facing is to process the RSS feed of the channel.Not every channels have well        maintained RSS feed.
+* I might be facing a problem to process the RSS feed of the channel.Not every channels have well     maintained RSS feed.
 
 * Filtering the content . So in order to filter the content I might have to scrape the content of the webpage.In order to scrape the content I am planning to use a JS library to do the trick. 
 
