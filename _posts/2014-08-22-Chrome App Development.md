@@ -19,3 +19,8 @@ So now for my first side project I am planning to develop a Chrome app which wil
 * Node.js offers a good scraping library so the next obstacle is integrating Node.js with Chrome Apps.
 
 Now I have listed down all the issues that I will be tackling . It's challenging , but hey I am doing this only for the challenge. 
+<blockquote>
+<p>
+“It does not matter how slowly you go so long as you do not stop.” 
+</p>
+</blockquote>
