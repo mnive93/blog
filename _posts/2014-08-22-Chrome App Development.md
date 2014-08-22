@@ -2,7 +2,7 @@
 layout:     post
 title:      Chrome App Development! 
 image:      Satellite.png
-summary:    So now for my first side project I am planning to develop a Chrome app which will help me dig deeper into Javascript (which I am very very weak at)! 
+summary:    The idea of my Chrome app is something similar to that of LinkedIn Pulse app but with a twist. You get to subscribe to many channels or even add a channel that you wish to receive updates. 
 categories: tech 
 ---
 
