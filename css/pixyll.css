@@ -82,7 +82,7 @@ body {
 .posts .post {
   margin-bottom: 4rem;
   padding-bottom: 2rem;
-  border-bottom: thin solid #f3f3f3;
+  border-bottom: thin dotted #f3f3f3;
 }
 
 .posts .post:last-child {
@@ -133,12 +133,11 @@ body {
 
 .meta,
 .post-meta {
-  width: auto;
-  font-weight: 300;
-  padding: 0.5rem;
-  color: #7a7a7a;
-  font-style: italic;
-  border-bottom: thin dotted #f3f3f3;
+  font-weight: 30;
+  color: #d3d3d3;
+  font-style:normal;
+  padding-top:10px;
+  
 }
 
 .pagination .button {
@@ -227,6 +226,7 @@ h6 {
   .site-header {
     text-align: center;
     width: 100%;
+    
   }
 
   .site-header .site-nav {
@@ -235,6 +235,8 @@ h6 {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    
+  
   }
 }
 

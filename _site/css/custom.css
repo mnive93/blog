@@ -1,7 +1,14 @@
 .small-img
 {
-width:80px; 
-height:80px; 
+width:50px; 
+height:50px; 
+}
+.name
+{
+    color: #13A1CB;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .left
 {
