@@ -122,3 +122,52 @@ height:50px;
   width: 6.382978723404255%;
   *width: 6.329787234042553%;
 }
+
+/****** Share buttons CSS  ******/
+.share-buttons-label {
+  	color: #ccc;
+  	font-weight: bold;
+  }
+  
+  .custom-social-buttons
+  {
+    margin-top: 50px;
+  	margin-bottom: 120px;
+  }
+ 
+ .custom-social-button
+ {
+ 	height: 30px; 
+ 	border-left: 1px solid #ccc;
+ 	width: 32%; 
+ 	text-align: center; 
+ 	float: left;
+ }
+ 
+ .custom-social-button.googleplus
+ {
+ 	border-right: 1px solid #ccc;
+ 	float: right;
+ }
+ 
+26 .custom-social-button a
+27 {
+28 	vertical-align: middle;
+29 	color: #ccc;
+30 	font-weight: bold;
+31 }
+32 
+33 .custom-social-button a i
+34 {
+35 	display: block;
+36 	width: 100%;
+37 	height: 100%;
+38 	line-height: 30px;
+39 }
+40 
+41 .custom-social-button a:hover
+42 {
+43 	vertical-align: middle;
+44 	color: #555;
+45 	font-weight: bold;
+46 }

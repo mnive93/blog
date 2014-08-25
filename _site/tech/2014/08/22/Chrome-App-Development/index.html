@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chrome App Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal blog page where you get to see all my projects">
+    <meta name="author" content="Nivedita Muthusubramanian">
+    <link rel="canonical" href="http://mnive93.github.io/tech/2014/08/22/Chrome-App-Development/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+    <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
+        <link rel="stylesheet" href="/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css" type="text/css">
+<script src="/js/share.js"></script>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <header class="site-header">
+  <div class="mt2 wrap">
+    <div class="measure">
+     
+      <nav class="site-nav right">
+        <span class="quora-follow-button" data-name="Nivedita-Muthusubramanian">Follow <a href="http://www.quora.com/Nivedita-Muthusubramanian" class="name"></a> <a href="http://www.quora.com"></a><script type="text/javascript" src="http://www.quora.com/widgets/follow?embed_code=daygwdf"></script></span>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post-header mb2">
+ 
+  <h1 class="py1">Chrome App Development</h1>
+    <span class="meta">Aug 22, 2014</span>
+</div>
+
+<article class="post-content">
+  <p>Hello.</p>
+
+<p>So now for my first side project I am planning to develop a Chrome app which will help me dig deeper into Javascript (which I am very very weak at)! The idea of my Chrome app is something similar to that of LinkedIn Pulse app but with a twist ! You get to subscribe to many channels or even add a channel that you wish to receive updates. By channels I mean their RSS feed. So the twist is that I am planning to let you filter your news with a set of keywords which will help you stay updated in the news that you are interested in. So this is raw basic idea of my chrome app.It requires a bit of tweaking. </p>
+
+<p><b>Obstacles </b> </p>
+
+<ul>
+  <li>
+    <p>I might be facing a problem to process the RSS feed of the channel.Not every channels have well     maintained RSS feed.</p>
+  </li>
+  <li>
+    <p>Filtering the content . So in order to filter the content I might have to scrape the content of the webpage.In order to scrape the content I am planning to use a JS library to do the trick. </p>
+  </li>
+  <li>
+    <p>Node.js offers a good scraping library so the next obstacle is integrating Node.js with Chrome Apps.</p>
+  </li>
+</ul>
+
+<p>Now I have listed down all the issues that I will be tackling . It’s challenging , but hey I am doing this only for the challenge. </p>
+<blockquote>
+<p>
+“It does not matter how slowly you go so long as you do not stop.” 
+</p>
+</blockquote>
+
+</article>
+<div class="custom-social-buttons">		
+ 	<div class="share-buttons-label">
+  		
+  	</div>
+  	<div class="custom-social-button twitter">
+  		<a id="twitter-link" href="#"><i class="fa fa-twitter"></i></a>
+  	</div>
+  	<div class="custom-social-button linkedin">
+  		<a id="linkedin-link" href="#"><i class="fa fa-linkedin"></i></a>
+ 	</div>
+ 	<div class="custom-social-button googleplus">
+ 		<a id="googleplus-link" href="#"><i class="fa fa-google-plus"></i></a>
+ 	</div>
+ </div>
+<script type="text/javascript">
+  	window.onload = function(){						
+  		var blogDomain = "http%3A%2F%2Fmnive93.github.io%2FPersonalBlog%2Ftech%2F";
+  		
+       
+        var pageTitle = "Chrome App Development";
+        
+  		var pageTitleDashes = pageTitle.replace(/ /g, '-') + "%2F&amp;";
+  		var pageTitleSpaces = pageTitle.replace(/ /g, '%20') + "&amp;";
+        var pageDateShort = "2014-08-22";
+ 		var pageDateShortSlashes = pageDateShort.replace(/-/g, '%2F') + "%2F";
+
+  		
+ 		var twitterPartOne = "https://twitter.com/intent/tweet?original_referer=";
+ 		var twitterPartTwo = "text=";
+ 		var twitterPartThree = "tw_p=tweetbutton&amp;url=";
+ 		var twitterPartFour = "via=mnive93";
+ 		var twitterUrl = twitterPartOne + blogDomain +pageDateShortSlashes + pageTitleDashes + twitterPartTwo + pageTitleSpaces + twitterPartThree + blogDomain + pageDateShortSlashes + pageTitleDashes + twitterPartFour;
+		var twitterLink = document.getElementById("twitter-link");
+ 		twitterLink.onclick = function() {popUp=window.open(twitterUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
+ 		
+ 		var linkedinPartOne = "http://www.linkedin.com/shareArticle?mini=true&url=";
+ 		var linkedinPartTwo = "&title=";
+ 		var linkedinPartThree = "&summary=";
+ 		var linkedinPartFour = "&source=";
+ 		var linkedinUrl = linkedinPartOne + blogDomain + pageDateShortSlashes + pageTitleDashes + linkedinPartTwo + pageTitleSpaces + linkedinPartFour + "@mnive93";
+ 		var linkedInLink = document.getElementById("linkedin-link");
+ 		linkedInLink.onclick = function() {popUp=window.open(linkedinUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
+ 		
+ 		var googlePlusPartOne = "https://plus.google.com/share?url=";
+ 		var googlePlusUrl = googlePlusPartOne + blogDomain + pageDateShortSlashes + pageTitleDashes;
+ 		var googlePlusLink = document.getElementById("googleplus-link");
+ 		googlePlusLink.onclick = function() {popUp=window.open(googlePlusUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
+ 	};
+ </script>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

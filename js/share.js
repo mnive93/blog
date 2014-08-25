@@ -1,36 +1,7 @@
----
-layout: default
----
-<div class="post-header mb2">
- 
-  <h1 class="py1">{{ page.title }}</h1>
-    <span class="meta">{{ page.date | date: "%b %-d, %Y" }}</span>
-</div>
-
-<article class="post-content">
-  {{ content }}
-</article>
-<div class="custom-social-buttons">		
- 	<div class="share-buttons-label">
-  		
-  	</div>
-  	<div class="custom-social-button twitter">
-  		<a id="twitter-link" href="#"><i class="fa fa-twitter"></i></a>
-  	</div>
-  	<div class="custom-social-button linkedin">
-  		<a id="linkedin-link" href="#"><i class="fa fa-linkedin"></i></a>
- 	</div>
- 	<div class="custom-social-button googleplus">
- 		<a id="googleplus-link" href="#"><i class="fa fa-google-plus"></i></a>
- 	</div>
- </div>
 <script type="text/javascript">
   	window.onload = function(){						
-  		var blogDomain = "http%3A%2F%2Fmnive93.github.io%2FPersonalBlog%2F{{ page.categories }}%2F";
-  		
-       
-        var pageTitle = "{{ page.title }}";
-        
+  		var blogDomain = "http%3A%2F%2Fmnive93.github.io%2FPersonalBlog%2F";
+  		var pageTitle = "{{ page.title }}";
   		var pageTitleDashes = pageTitle.replace(/ /g, '-') + "%2F&amp;";
   		var pageTitleSpaces = pageTitle.replace(/ /g, '%20') + "&amp;";
         var pageDateShort = "{{ page.dateShort }}";
@@ -41,7 +12,7 @@ layout: default
  		var twitterPartTwo = "text=";
  		var twitterPartThree = "tw_p=tweetbutton&amp;url=";
  		var twitterPartFour = "via=mnive93";
- 		var twitterUrl = twitterPartOne + blogDomain +pageDateShortSlashes + pageTitleDashes + twitterPartTwo + pageTitleSpaces + twitterPartThree + blogDomain + pageDateShortSlashes + pageTitleDashes + twitterPartFour;
+ 		var twitterUrl = twitterPartOne + blogDomain + pageDateShortSlashes + pageTitleDashes + twitterPartTwo + pageTitleSpaces + twitterPartThree + blogDomain + pageDateShortSlashes + pageTitleDashes + twitterPartFour;
 		var twitterLink = document.getElementById("twitter-link");
  		twitterLink.onclick = function() {popUp=window.open(twitterUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
  		

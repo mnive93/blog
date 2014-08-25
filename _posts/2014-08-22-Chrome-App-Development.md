@@ -1,7 +1,8 @@
 ---
 layout:     post
-title:      Chrome App Development! 
+title:      Chrome App Development 
 image:      Satellite.png
+dateShort:  "2014-08-22"
 summary:    The idea of my Chrome app is something similar to that of LinkedIn Pulse app but with a twist. You get to subscribe to many channels or even add a channel that you wish to receive updates. 
 categories: tech 
 ---

@@ -7,7 +7,7 @@
     <atom:link href="http://mnive93.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Chrome App Development!</title>
+        <title>Chrome App Development</title>
         <description>&lt;p&gt;Hello.&lt;/p&gt;
 
 &lt;p&gt;So now for my first side project I am planning to develop a Chrome app which will help me dig deeper into Javascript (which I am very very weak at)! The idea of my Chrome app is something similar to that of LinkedIn Pulse app but with a twist ! You get to subscribe to many channels or even add a channel that you wish to receive updates. By channels I mean their RSS feed. So the twist is that I am planning to let you filter your news with a set of keywords which will help you stay updated in the news that you are interested in. So this is raw basic idea of my chrome app.It requires a bit of tweaking. &lt;/p&gt;
@@ -16,7 +16,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;I might be facing is to process the RSS feed of the channel.Not every channels have well        maintained RSS feed.&lt;/p&gt;
+    &lt;p&gt;I might be facing a problem to process the RSS feed of the channel.Not every channels have well     maintained RSS feed.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Filtering the content . So in order to filter the content I might have to scrape the content of the webpage.In order to scrape the content I am planning to use a JS library to do the trick. &lt;/p&gt;
@@ -27,14 +27,19 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Now I have listed down all the issues that I will be tackling . It’s challenging , but hey I am doing this only for the challenge. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+“It does not matter how slowly you go so long as you do not stop.” 
+&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 22 Aug 2014 00:00:00 +0530</pubDate>
-        <link>http://mnive93.github.io/tech/2014/08/22/Chrome%20App%20Development/</link>
-        <guid isPermaLink="true">http://mnive93.github.io/tech/2014/08/22/Chrome%20App%20Development/</guid>
+        <link>http://mnive93.github.io/tech/2014/08/22/Chrome-App-Development/</link>
+        <guid isPermaLink="true">http://mnive93.github.io/tech/2014/08/22/Chrome-App-Development/</guid>
       </item>
     
       <item>
-        <title>Hello World!</title>
+        <title>Hello World</title>
         <description>&lt;p&gt;Hello.&lt;/p&gt;
 
 &lt;p&gt;This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.I have fallen in love with the beautiful and simple UI.Okay now let’s get into business.I am going to start blogging and make use of my ample free time productively.I am planning to work on various side projects and this is where you get to see how they are done. So let’s get started!&lt;/p&gt;
@@ -46,8 +51,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 11 Aug 2014 00:00:00 +0530</pubDate>
-        <link>http://mnive93.github.io/jekyll/2014/08/11/my-very-first-post/</link>
-        <guid isPermaLink="true">http://mnive93.github.io/jekyll/2014/08/11/my-very-first-post/</guid>
+        <link>http://mnive93.github.io/jekyll/2014/08/11/Hello-World/</link>
+        <guid isPermaLink="true">http://mnive93.github.io/jekyll/2014/08/11/Hello-World/</guid>
       </item>
     
   </channel>

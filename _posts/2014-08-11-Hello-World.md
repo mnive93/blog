@@ -1,7 +1,8 @@
 ---
 layout:     post
-title:      Hello World! 
+title:      Hello World
 image:      cake.png
+dateShort: "2014-08-11"
 summary:    This is going to be my personal blogpage which is created using Jekyll . I have never seen such clean and crisp structure.
 categories: jekyll 
 ---
