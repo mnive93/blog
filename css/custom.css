@@ -165,9 +165,21 @@ height:50px;
  	line-height: 30px;
  }
  
- .custom-social-button a:hover
+ .googleplus a:hover
  {
  	vertical-align: middle;
- 	color: #555;
+ 	color: #d34836;
+ 	font-weight: bold;
+ }
+.twitter a:hover
+ {
+ 	vertical-align: middle;
+ 	color: #55acee;
+ 	font-weight: bold;
+ }
+.facebook a:hover
+ {
+ 	vertical-align: middle;
+ 	color: #3b5998;
  	font-weight: bold;
  }
