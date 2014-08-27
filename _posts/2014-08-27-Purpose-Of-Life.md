@@ -15,6 +15,6 @@ I console myself with the cliche "Maybe something better is waiting for me".Yeah
 What is the ultimate purpose of our lives ? Just preserve our species? So many questions pounding inside my head but I fail to answer them EVERY.SINGLE.TIME.
 <blockquote>
 <p>
-If winter comes can Spring be far behind ? Have some hope . 
+"If winter comes can Spring be far behind ? Have some hope . "
 </p>
 </blockquote>
