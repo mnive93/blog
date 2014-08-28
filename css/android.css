@@ -36,8 +36,7 @@ ul.ulNoStyle li {
 	width: 32px;
 	height: 32px;
 	border-radius: 20px;
-	padding-right: 15px;
-	padding: 2px;
+	margin-right: 10px;
 	float: left;
     
 }
