@@ -33,12 +33,13 @@ ul.ulNoStyle li {
 	padding-right: 5px;
 }
 .zi-blog-author-photo-container img {
-	border-radius: 30px;
-	width: 24px;
-	height: 24px;
+	width: 32px;
+	height: 32px;
+	border-radius: 20px;
 	padding-right: 15px;
 	padding: 2px;
 	float: left;
+    
 }
 .zi-blog-content-container img {
 	width: 320px;
