@@ -62,7 +62,7 @@ ul.ulNoStyle li {
 	font-weight: 500;
 	margin: 15px -10px 10px -15px;
 	padding: 10px 15px;
-	font-size: 1.0em;
+	font-size: 14px;
 	border-bottom: 1px solid #efefef;
 	border-top: 1px solid #efefef;
 }
@@ -87,7 +87,7 @@ ul.ulNoStyle li {
 	font-weight: normal;
 }
 .zi-blog-comment-content {
-	font-size: 15px;
+	font-size: 14px;
 	padding-left: 9px;
 	padding-right: 0;
 	font-family: 'Open Sans', sans-serif;
