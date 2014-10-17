@@ -43,8 +43,9 @@ ul.ulNoStyle li {
     
 }
 .zi-blog-content-container img {
-	width: 320px;
-	max-height: auto;
+	display: block;
+    max-width: 100% !important;
+    height: auto !important;
 }
 .zc-blogmeta {
 	color: #8e8e8e;
