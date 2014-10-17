@@ -100,7 +100,10 @@ img.zc-smile{
    display: inline; 
    
 }
-zc-time
+.zc-time
 {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #5e5e5e;
     font-weight: normal;
 }
