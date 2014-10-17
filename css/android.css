@@ -43,6 +43,7 @@ ul.ulNoStyle li {
     
 }
 .zi-blog-content-container img {
+    
 	max-width: 100% !important;
 	height: auto !important;
 }
@@ -98,4 +99,8 @@ ul.ulNoStyle li {
 img.zc-smile{
    display: inline; 
    
+}
+zc-time
+{
+    font-weight: normal;
 }
