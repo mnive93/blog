@@ -85,7 +85,11 @@ ul.ulNoStyle li {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #5e5e5e;
-	font-weight: bold;
+	
+}
+zc-author
+{
+    font-weight: bold;
 }
 .zi-blog-comment-content {
 	font-size: 14px;
