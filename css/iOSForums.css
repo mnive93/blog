@@ -27,8 +27,9 @@ text-decoration:line-through;
 body {
 font-family:Arial;
 background:#f2f2f2;
-font:12px arial,verdana, Helvetica, sans-serif;
-line-height:1.4;
+font:13px arial,verdana, Helvetica, sans-serif;
+line-height:17px;
+text-align: justify;
 min-width:1000px;
 margin:0;
 padding:0;
@@ -538,6 +539,7 @@ body.iosMobileForums{
 	padding: 2px;
 }
 em.ndboldem{
-	font-size: 10px;
+	font-size: 11px;
 	color: #999;
+    font-style: normal;
 }
