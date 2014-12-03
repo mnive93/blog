@@ -1,473 +1,280 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,fieldset,form,label,legend,caption {
-border:0;
-outline:0;
-font-size:100%;
-vertical-align:baseline;
-background:transparent;
-margin:0;
-padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	margin:0;
+	padding:0;
 }
 
 blockquote,q {
-quotes:none;
-}
+	quotes:none;
+}	
 
 blockquote:before,blockquote:after,q:before,q:after {
-content:none;
+	content:none;
 }
 
 :focus {
-outline:0;
+	outline:0;
 }
 
 del {
-text-decoration:line-through;
+	text-decoration:line-through;
 }
-
-body {
-font-family:Arial;
-background:#f2f2f2;
-font:13px arial,verdana, Helvetica, sans-serif;
-line-height:17px;
-text-align: justify;
-min-width:1000px;
-margin:0;
-padding:0;
-}
-
 pre.likeCode {
-height:auto;
-overflow:auto;
-border:1px dotted #efefef;
-padding:3px;
+	height:auto;
+	overflow:auto;
+	border:1px dotted #efefef;
+	padding:3px;
 }
-span.spacing {
-margin-left:5px;
-margin-right:5px;
-}
-
 .flLeftNone {
-float:left;
-#float:none;
+	float:left;
+	#float:none;
 }
-
 .block_quote,.quote {
-font:italic 13px georgia, Arial, verdana, Helvetica, sans-serif;
-background:transparent url(../images/newQuote.gif) 12px 10px no-repeat;
-line-height:20px;
-border-left:3px solid #efefef;
-margin:15px 3px 15px 15px;
-padding:10px 10px 10px 40px;
+	font:italic 13px georgia, Arial, verdana, Helvetica, sans-serif;
+	background:transparent url("https://css.zohostatic.com/discussions/v5/images/newQuote.gif") 12px 10px no-repeat;
+	line-height:20px;
+	border-left:3px solid #efefef;
+	margin:15px 3px 15px 15px;
+	padding:10px 10px 10px 40px;
 }
 ol.code {
-list-style-position:outside;
-list-style-type:decimal;
-overflow-x:auto;
-overflow-y:hidden;
-width:90%;
-padding:0 30px;
+	list-style-position:outside;
+	list-style-type:decimal;
+	overflow-x:auto;
+	overflow-y:hidden;
+	width:90%;
+	padding:0 30px;
 }
 
 ol.code li {
-border-left:2px solid #ccc;
-background-color:#f5f5f5;
-margin:1px 0;
-padding:2px;
+	border-left:2px solid #ccc;
+	background-color:#f5f5f5;
+	margin:1px 0;
+	padding:2px;
 }
-
+ul li, ol li{
+	list-style: none;
+}
 blockquote.zquote {
-border-left:3px solid #efefef;
-padding-left:35px;
+	border-left:3px solid #efefef;
+	padding-left:35px;
 }
 
 blockquote.zquote span.txt {
-font:bold 50px Arial, Helvetica, sans-serif;
-color:#058bc2;
-float:left;
--moz-user-focus:ignore;
--moz-user-input:disabled;
--moz-user-select:none;
--khtml-user-select:none;
--o-user-select:none;
-margin:-10px 0 0 -30px;
+	font:bold 50px Arial, Helvetica, sans-serif;
+	color:#058bc2;
+	float:left;
+	-moz-user-focus:ignore;
+	-moz-user-input:disabled;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	-o-user-select:none;
+	margin:-10px 0 0 -30px;
 }
-
-
-a:active,a:link,a:visited {
-color:#457BD9;
-text-decoration:none;
-outline:0;
-}
-
-a:link,a:visited {
-text-decoration:none;
-color:#555;
-}
-
-input {
-font:13px arial,verdana,helevitica;
-}
-
 a.lightbox {
-border:0;
-outline:none;
-color:#ffff;
-text-decoration:none;
+	border:0;
+	outline:none;
+	color:#ffff;
+	text-decoration:none;
 }
 
 a.underline {
-text-decoration:none;
-cursor:hand;
-color:#666;
+	text-decoration:none;
+	cursor:hand;
+	color:#666;
 }
 
 a.underline:hover {
-text-decoration:underline;
-cursor:hand;
+	text-decoration:underline;
+	cursor:hand;
 }
 
 a.postTitle:hover {
-background:#E3F0FF;
-border-bottom:1px solid #105CB6;
-text-decoration:none;
+	background:#E3F0FF;
+	border-bottom:1px solid #105CB6;
+	text-decoration:none;
 }
 
 a.darkGreenLink {
-color:#52a33d;
+	color:#52a33d;
 }
 
 a.orangeLink {
-color:#B5A563;
+	color:#B5A563;
 }
 
 a.greenLink,a.greenLink:visited {
-color:#77c64c;
-text-decoration:none;
+	color:#77c64c;
+	text-decoration:none;
 }
 
 a.blueLink,a.blueLink:visited,.blueLink {
-color:#105cb6;
-text-decoration:none;
+	color:#105cb6;
+	text-decoration:none;
 }
 
 a.blackLink:hover h3,a.blackLink:visited {
-color:#000;
-text-decoration:underline;
+	color:#000;
+	text-decoration:underline;
 }
 
 a.lightGreyText {
-color:#878c97;
-font:normal 10px Arial, Helvetica, sans-serif;
+	color:#878c97;
+	font:normal 10px Arial, Helvetica, sans-serif;
 }
 
 a.mediumUnderlineLink {
-color:#2C539A;
-border-bottom:0 dotted #555;
-text-decoration:none;
+	color:#2C539A;
+	border-bottom:0 dotted #555;
+	text-decoration:none;
 }
 
 a.mediumUnderlineLinkNew {
-border-bottom:0 dotted #105CB6;
-text-decoration:none;
-background-color:#ffc;
+	border-bottom:0 dotted #105CB6;
+	text-decoration:none;
+	background-color:#ffc;
 }
 
 .clearAll {
-clear:both;
-margin:0;
-padding:0;
+	clear:both;
+	margin:0;
+	padding:0;
 }
 
 .inlineElement {
-display:inline;
+	display:inline;
 }
 
 .inBlock {
-_display:inline-block;
+	_display:inline-block;
+}
+.iosMobileForums .spsingleReplyContainer .normalPhoto, .iosMobileForums .spsingleReplyContainer .normalPhoto img{
+	height: 36px;
+	width: 36px;
+}
+.iosMobileForums .sppostHeader h3 {
+	color:#000;
+	font-size:1.4em;
+	line-height:1.6em;
+	font-weight: normal;
+	width:74%;
+	float:left;
 }
 
-.ulNoStyle {
-list-style:none;
-margin:0;
-padding:0;
-}
-
-.photoCont {
-float:left;
-background:#eee;
-cursor:hand;
-margin-right:8px;
-width:39px;
-height:41px;
-padding:8px;
-}
-
-.photoCont img {
-width:39px;
-height:39px;
-}
-
-.userPhoto {
-border:1px solid #ccc;
-background-color:#fff;
-margin-right:5px;
-padding:1px;
-}
-
-.userPhoto img {
-max-height:40px;
-max-width:40px;
-height:auto;
-width:auto;
-_height:40px;
--width:40px;
-}
-
-.userPhotoMed img {
-border:1px solid #efefef;
-max-height:74px;
-max-width:74px;
-margin-right:6px;
-height:auto;
-width:auto;
-_height:74px;
--width:74px;
-padding:1px;
-}
-
-.singlePostContLeft {
-width:77%;
-height:1%;
-}
-
-.postContainer .postContent {
-font:normal 13px Arial, Helvetica, sans-serif;
-line-height:1.6;
-background:none;
-padding:0;
-}
-
-.postContent {
-background:#fff;
-line-height:1.6;
-padding:1em;
-}
-.statusCont {
-background-color:#f6f6f6;
-border-color:#efefef;
-border-style:solid;
-border-width:1px 1px 0;
-margin:0 1px;
-padding:2px;
-}
-
-
-.contentContainer {
-overflow:auto;
-margin:10px 0 0;
-}
-
-.leftcontentContainer {
-width:75%;
-min-height:550px;
-float:left;
-font-size:13px;
-}
-
-.contentWrapper {
-background:none repeat scroll 0 0 #FFF;
-border:1px solid #E6E6E6;
-box-shadow:0 1px 3px rgba(0,0,0,0.3);
-min-height:670px;
-border-radius:3px 3px 3px 3px;
-position:relative;
-padding:15px;
-}
-
-.normalPhoto,.normalPhoto img {
-height:72px;
-width:72px;
--moz-border-radius:3px;
--khtml-border-radius:3px;
--webkit-border-radius:3px;
-margin-bottom:5px;
-border:1px solid #f4f4f4;
-position:relative;
-}
-
-.sppostContent {
-width:89%;
-padding:0;
-}
-
-.sppostContentWrapper {
-line-height:1.7;
-min-height:130px;
-padding:0 0 0 21px;
-}
-
-.sppostHeader {
-padding:0 0 10px;
-}
-
-.sppostHeader h3 {
-clear:both;
-color:#636363;
-font-size:1.4em;
-line-height:1.5;
-font-weight:700;
-width:74%;
-float:left;
-}
-
-.sppostHeader h3 a,.sppostHeader h3 a:hover {
+.iosMobileForums .sppostHeader h3 a,.sppostHeader h3 a:hover {
 color:#636363;
 text-decoration:none;
 }
-
-.sppostHeader h4 {
-color:#888;
-font-size:12px;
-line-height:1.5;
-float:left;
-}
-.sppostAuthor {
-max-width:80px;
-text-align:center;
-padding:7px 0 0;
+.iosMobileForums .spsingleReplyContainer .responsHeader{
+	width: 70%;
+	float: left;
 }
 
-.sppostAuthor .greenText {
-padding:2px 0 4px;
+.iosMobileForums .sppostHeader h4 {
+	color:#888;
+	font-size: 1.1em;
+	line-height:1.3em;
+	float: left !important;
+	clear: none !important;
+	width: 80% !important;
+	padding-left: 10px;
+	font-weight: normal;
 }
-
-.sppostAuthor span {
-display:block;
-overflow:hidden;
-padding:3px 0 0;
+.iosMobileForums .sppostAuthor span {
+	display: block;
+	overflow: hidden;
+	padding: 3px 0 0;
+	font-size: 0.8em;
+	word-break: break-word !important;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
-
-.statusType ul li {
-cursor:pointer;
-padding:5px;
+.iosMobileForums .spsingleReplyContainer{
+	padding: 10px 0 10px 0 !important;
+	border-bottom: 1px solid #DDD;
+	position: relative;
 }
-
-.spattachmentConent {
-clear:both;
-font-size:11px;
-color:#8c8c8b;
-padding:0 0 0 20px;
+.iosMobileForums .spreplyContainer:last-child .spsingleReplyContainer{
+	border-bottom: 0;
 }
-.spattachmentConent a {
-padding-left:8px;
-color:#8C8C8B;
+.iosMobileForums .spsingleReplyContainer .sppostHeader h4{
+	width: 100% !important;
 }
-.responseHeight {
-min-height:75px;
-margin-top:5px;
+.iosMobileForums .sppostContent .sppostContentWrapper .sppostHeader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #eee;
 }
-.spsppostActions {
-margin-bottom:10px;
-padding:5px 0 0;
+.iosMobileForums .sppostContent .sppostContentWrapper .normalPhoto{
+	float: left;
 }
-
-.sppostActions ul li {
-padding:4px 10px 5px;
-}
-
-.sppostActions ul li a {
-color:#686868;
-}
-.button {
-zoom:1;
-display:inline;
-vertical-align:baseline;
-outline:none;
-cursor:pointer;
-text-align:center;
-text-decoration:none;
-text-shadow:0 1px 1px rgba(0,0,0,.3);
--webkit-border-radius:.5em;
--moz-border-radius:.5em;
-border-radius:.5em;
--webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
--moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
-box-shadow:0 1px 2px rgba(0,0,0,.2);
-margin:0 2px;
-padding:.5em 2em .55em;
+.iosMobileForums .button {
+	zoom:1;
+	display:inline;
+	vertical-align:baseline;
+	outline:none;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius:.5em;
+	-moz-border-radius:.5em;
+	border-radius:.5em;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	box-shadow:0 1px 2px rgba(0,0,0,.2);
+	margin:0 2px;
+	padding:.5em 2em .55em;
 }
 
 .button:active {
-position:relative;
-top:1px;
+	position:relative;
+	top:1px;
 }
 
 .bigrounded {
--webkit-border-radius:2em;
--moz-border-radius:2em;
-border-radius:2em;
+	-webkit-border-radius:2em;
+	-moz-border-radius:2em;
+	border-radius:2em;
 }
 
 .medium {
-font-size:12px;
-padding:.4em 1.5em .42em;
+	font-size:12px;
+	padding:.4em 1.5em .42em;
 }
 
 .small {
-font-size:11px;
-padding:.2em 1em .275em;
+	font-size:11px;
+	padding:.2em 1em .275em;
 }
 
 .black {
-color:#d7d7d7;
-border:solid 1px #333;
-background:0;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#222222');
-}
-
-
-
-
-.innerLeftActions ul li:hover a {
-color:#FFF;
+	color:#d7d7d7;
+	border:solid 1px #333;
+	background:0;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#222222');
 }
 
 a:link,a:visited,h3 a:link,h3 a:visited {
-color:#333;
-text-decoration:none;
+	color:#457BD9;
+	text-decoration:none;
 }
-
-.business .mainNav {
-margin-top:3px;
-}
-
-.singleForum .innerActionsList li {
-border-bottom:0 none;
-margin:1px 0;
-padding:3px 21px 3px 2px;
-}
-
-ins,.breadCrumbCont a,.staticsCurves div:hover span.image,.portalBut a,.portalBut a:hover,.listCont a:hover,a.ndallForumFilter:hover,.helpIconCont a:hover,.signInBtn:hover,.postFooter a:hover,.button:hover,.newTopic a:hover {
-text-decoration:none;
-}
-
-.toolBarItemHover,.toolBarItemSelected {
-background:#cfe0e7;
-border-bottom:1px solid #DBD9DE;
-border-top:1px solid #E3E3E3;
-height:20px;
-}
-
 .clear_both,.ndfooter,.iTclearBoth,.clearBoth,.sppostContent p {
-clear:both;
+	clear:both;
 }
-
 .flLeft,.ndflLeft,.iTflLeft,.mainMenu ul li {
-float:left;
+	float:left;
 }
-
 .flRight,.ndflRight,.iTflRight {
-float:right;
+	float:right;
 }
 /****** IOS FORUM STYLES *******/
 body.iosMobileForums{
@@ -478,9 +285,11 @@ body.iosMobileForums{
 	-moz-box-sizing: border-box;
 	width: 100%;
 	min-width: 100%;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	word-break: break-word;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	padding-bottom: 10px;
 }
 .iosMobileForums a{
 	word-break: break-all;
@@ -492,39 +301,101 @@ body.iosMobileForums{
 }
 .iosMobileForums .leftcontentContainer{
 	width: 100%;
+	min-height: 100%;
+	float: left;
+	font-size: 13px;
+	padding: 6px;
 }
 .iosMobileForums .contentContainer{
 	margin: 0;
-}
-.iosMobileForums .contentWrapper{
-	padding: 6px;
+	overflow-x: hidden; 
 }
 .iosMobileForums .sppostAuthor{
-	max-width: 40px;
-	position: absolute;
+	width: 44px;
 	padding: 0;
-	margin-left: 3px;
+}
+.iosMobileForums .commentHeader{
+	float: left;
+	padding-left: 4px;
+	width: 75%;
+}
+.iosMobileForums .commentHeader span{
+	color: #666;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
 }
 .iosMobileForums .normalPhoto, .iosMobileForums .normalPhoto img {
-	height: 36px;
-	width: 36px;
+	height: 42px;
+	width: 42px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 1px solid #f4f4f4;
+	position: relative;
+}
+.contentHeader span{
+	color: #666;
+	margin-top: 4px;
+	display: block;
+}
+.commentHeader .dimText, .contentHeader .dimText{
+	margin-top: -6px;
 }
 .iosMobileForums .sppostContent {
 	width: 100%;
 }
 .iosMobileForums .sppostContentWrapper{
-	padding-left: 54px;
+	padding-left: 0px;
+	line-height: 1.7em;
+}
+.iosMobileForums .sppostHeader{
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: -10px;
+	padding: 15px 10px 0 10px;
+}
+.iosMobileForums .spsingleReplyContainer .sppostHeader{
+	width: 110%;
 }
 .iosMobileForums #DocumentTitle{
+	width: 100% !important;
+	float: left;
+	margin-top: 64px;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 20px 10px;
+	line-height: 1.4em;
+}
+.iosMobileForums .sppostHeader .dimText{
+	float: left;
+	clear: none !important;
 	width: 100%;
 }
+.iosMobileForums .contentHeader{
+	width: 70%;
+	float: left;
+	padding-left: 10px;
+}
 .iosMobileForums .postContainer h2{
-	padding-left: 5px;
+	padding: 5px 0 5px 5px;
+	border-bottom: 1px solid #ddd;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 2em;
 }
 .iosMobileForums img, .iosMobileForums iframe{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+.iosMobileForums .responseHeight img{
+	height: auto !important;
 	width: auto !important;
 	max-width: 100% !important;
-	height: auto !important;
 }
 .iosMobileForums .contentWrapper{
 	width: 100%;
@@ -532,14 +403,27 @@ body.iosMobileForums{
 }
 .iosMobileForums .responseHeight{
 	padding-bottom: 20px;
+	padding: 0 4px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.iosMobileForums .responseHeight span{
+	font-size: 1.2em !important;
+	font-family: 'Helvetica Neue' sans-serif !important;
+}
+.spreplyContainer .responseHeight{
+	padding-bottom: 0px;	
+	margin-top: 36px;
+	padding: 6px;
 }
 .iosMobileForums table, .iosMobileForums tr, .iosMobileForums td, .iosMobileForums th{
 	border: 1px solid #DDD;
 	border-collapse: collapse;
 	padding: 2px;
+	max-width: 100%;
 }
-em.ndboldem{
-	font-size: 11px;
+.iosMobileForums em.ndboldem{
+	font-size: 10px;
 	color: #999;
-    font-style: normal;
+	font-style: normal;
 }
