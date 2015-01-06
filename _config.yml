@@ -3,7 +3,7 @@ title: Code Blog
 email: mnive93@gmail.com
 author: Nivedita Muthusubramanian
 description: "Personal blog page where you get to see all my projects"
-baseurl: /PersonalBlog
+baseurl: /blog
 url: "http://mnive93.github.io"
 
 # Build settings
